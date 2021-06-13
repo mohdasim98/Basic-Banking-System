@@ -1,0 +1,129 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Helvetica', sans-serif;
+    background-color: #355070;
+}
+
+
+.bg-light{
+    background-color: #fefbd8!important;
+}
+
+.navbar-brand{
+    font-family: 'Comic Sans', cursive;
+    font-size: 1.5rem;
+    color: #5f6368!important;
+}
+
+.nav-link{
+    color: #5f6368!important;
+    font-family: 'Comic Sans', cursive;
+}
+
+.nav-link:hover{
+    background-color: #f18973;
+}
+.hero-content{
+    height: 100vh;
+    background-color: #355070;
+    color: #ffffff;
+    padding: 3rem;
+	
+    border-bottom-right-radius: 50rem;
+	border-bottom-left-radius: 50rem;
+    margin-bottom: 2vh;
+	margin-top: 2vh;
+}
+
+.hero-img{
+    border-top-left-radius: 25rem;
+    border-top-right-radius: 25rem;
+    border-bottom-right-radius: 25rem;
+	border-bottom-left-radius: 25rem;
+	height:70vh;
+	width:70vh;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: coral;
+    color: #000000!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #fff;
+    
+}
+
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+
+footer{
+    background-color:  #fefbd8;
+	height:100%;
+	margin-bottom: 0px;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github {
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+
+.google{
+    color: #D44638;
+}
+
+.align-items-center{
+	height:100%;
+}
+
+.new{
+    color:#fff;
+}
